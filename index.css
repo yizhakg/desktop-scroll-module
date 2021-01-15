@@ -41,6 +41,7 @@ body {
     height: var(--windowHeight);
     width: 100%;
     overflow: hidden;
+    transition: .5s;
 }
 
 .main .bgImg {
