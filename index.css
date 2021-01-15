@@ -67,16 +67,16 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 2048.8px;
+    width: 1600px;
     z-index: 3;
     overflow: hidden;
     zoom: 0.8;
     transition: 0.5s;
-    animation: scrolling1 10s infinite linear;
+    /* animation: scrolling1 10s infinite linear; */
 }
 
 .scroll:last-child {
-    left: 2048.8px;
+    left: 1600px;
 }
 
 @keyframes scrolling1 {
@@ -99,8 +99,8 @@ body {
 
 .scroll .container {
     position: relative;
-    height: 400px;
-    width: 320px;
+    height: 330px;
+    width: 240px;
     background: #fafcf9;
     border-radius: 10px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -136,7 +136,7 @@ body {
 .scroll .container:nth-child(1):before,
 .scroll .container:nth-child(1)::after {
     background: url(./img/apple.png);
-    background-position: 50% -200%;
+    background-position: 50% -500%;
     background-size: 150%;
     background-repeat: no-repeat;
 }
@@ -144,7 +144,7 @@ body {
 .scroll .container:nth-child(2):before,
 .scroll .container:nth-child(2)::after {
     background: url(./img/orange.png);
-    background-position: 50% -200%;
+    background-position: 50% -500%;
     background-size: 150%;
     background-repeat: no-repeat;
 }
@@ -152,7 +152,7 @@ body {
 .scroll .container:nth-child(3):before,
 .scroll .container:nth-child(3)::after {
     background: url(./img/watermelon.png);
-    background-position: 50% -150%;
+    background-position: 50% -400%;
     background-size: 150%;
     background-repeat: no-repeat;
 }
@@ -160,7 +160,7 @@ body {
 .scroll .container:nth-child(4):before,
 .scroll .container:nth-child(4)::after {
     background: url(./img/banana.png);
-    background-position: 50% -140%;
+    background-position: 50% -350%;
     background-size: 150%;
     background-repeat: no-repeat;
 }
