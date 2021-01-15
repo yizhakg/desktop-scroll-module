@@ -1,3 +1,3 @@
-window.onload = () => {
-    document.documentElement.style.setProperty('--windowWidth', window.innerWidth + 'px');
+function doALoadOfStuff() {
+    document.documentElement.style.setProperty('--windowHeight', window.innerHeight+ 'px');
 }
