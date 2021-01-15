@@ -215,6 +215,9 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+    .nav{
+        justify-content: center;
+    }
     .main .bgImg{
         zoom: .5;
     }
