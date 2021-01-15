@@ -25,6 +25,7 @@ body {
 
 .nav ul {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .nav ul li {
@@ -72,7 +73,7 @@ body {
     overflow: hidden;
     zoom: 0.8;
     transition: 0.5s;
-    /* animation: scrolling1 10s infinite linear; */
+    animation: scrolling1 10s infinite linear;
 }
 
 .scroll:last-child {
