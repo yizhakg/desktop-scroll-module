@@ -106,7 +106,7 @@ body {
     background: #fafcf9;
     border-radius: 10px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    transition: 1s;
+    transition: 1s ease-out; 
 }
 
 .scroll .container:hover {
@@ -182,13 +182,14 @@ body {
 
 .scroll .container .text p {
     margin-top: 10px;
-    width: 320px;
+    min-width: 400px;
     opacity: 0;
-    transition: 2s;
+    transition: .3s ease-in;
 }
 
 .scroll .container:hover .text p {
     opacity: 1;
+    transition-duration: 1.5s;
 }
 
 .scroll .container .round {
